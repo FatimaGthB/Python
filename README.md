@@ -1,14 +1,13 @@
 # Python
 
-10/ Ajouter des éléments à un dictionnaire :
-employes = {}
-liste = [10, 2329, 5, "Pierre", 203, "Marie", 867, "Adrien"]
+10/ Add elements to a dictionary: employes = {} list = [10, 2329, 5, "Pierre", 203, "Marie", 867, "Adrien"]
 
-Dans cet exercice, vous devez boucler à travers la liste et ajouter au dictionnaire employes seulement les éléments de la liste qui sont des chaînes de caractères.
+In this exercise, you need to loop through the list and add to the employé dictionary only those elements of the list that are strings.
 
-Le but de l'exercice est de trier les données et de construire un dictionnaire d'employés.
+The aim of the exercise is to sort the data and build an employee dictionary.
 
-Les clés du dictionnaire doivent être id-xx, xx étant le numéro de l'employé.
+The dictionary keys must be id-xx, xx being the employee number.
 
-Votre script devra donc retourner le dictionnaire suivant dans la variable employes :
+Your script should therefore return the following dictionary in the variable employes :
+
 {"id-01": "Pierre", "id-02": "Marie", "id-03": "Adrien"}
